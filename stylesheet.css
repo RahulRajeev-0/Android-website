@@ -1,0 +1,679 @@
+body{
+    margin: 0;
+    
+}
+.header{
+    
+    margin: 0;
+    display: flex;
+    height: 45px;
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif; ;
+    font-size: 12px;
+    font-weight: light;
+    color: gray;
+    
+}
+.header_img{
+    display: flex;
+    height: 4px;
+    width: 119px;
+    background-color: aliceblue;
+}
+.dev_image{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    padding-left: 14px;
+}
+.header_div_platform{
+    width: 80px;
+    padding-top: 17px;
+    padding-left: 30px;
+    font-weight: bolder;
+    
+    font-family: 'Lato', sans-serif; ;
+    text-decoration: none;
+}
+.header_div_platform a{
+    text-decoration: none;
+    color: gray; 
+}
+.div_design_plan{
+    padding-top: 17px;
+    
+    
+}
+.div_design_plan select{
+
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif; ;
+    border-color: aliceblue ;
+    background-color: aliceblue;
+    color: gray;
+    font-size: 12px;
+}
+.head_multi{
+    padding-top: 17px;
+    width: 80px;
+    padding-left: 17px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif; ;
+    color: gray;
+    font-size: 12px;
+}
+.head_multi a{
+    text-decoration: none;
+    color: gray;
+}
+.search{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif; ;
+}
+.search input{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: lightgray;
+    padding-left: 40px;
+}
+.lang_select{
+    padding-top: 4px;
+    padding-left: 20px;
+}
+.lang_select select{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-color: aliceblue ;
+    background-color: aliceblue;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;;
+    border-color: aliceblue;
+    font-weight: bold;
+    color: gray;
+    
+}
+.head_android{
+    padding-top: 17px;
+    width: 90px;
+    padding-left: 17px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif; ;
+    font-size: 12px;
+}
+.head_android a{
+    color: rgb(103, 103, 239);
+    text-decoration: none;
+}
+.page1{
+    display: flex;
+    height: 540px;
+    
+    background-color: rgb(32, 33, 36);
+}
+.page1Img{
+    display: flex;
+    position: relative;
+    padding-left: 130px;
+    height: 460px;
+    width: 100%;
+}
+.page1google{
+    background-color: blue;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+.img2google{
+    display: flex;
+    position: absolute;
+    right:130px;
+    padding-top: 50PX;
+}
+.page1Box{
+    display: flex;
+    background-color:rgb(236, 231, 231);
+    border:1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 530px;;
+    position: absolute;
+    left:150px;
+    top:80px;
+    
+    
+}
+.head_title{
+    margin: 0;
+    display: flex;
+    width: 530px;
+    height: 80px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 25px;
+    padding-bottom: 40px;
+    
+    
+}
+.head_title h1{
+    margin: 0%;
+    padding-left: 40px;
+}
+.page1Para{
+    margin: 0%;
+    position: absolute;
+    top:120px;
+    height: 50;
+}
+.page1Para p{
+    padding-left: 40px;
+    padding-right: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.page1Button{
+    position: absolute;
+    top:230px;
+    left: 40px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+}
+.page1Button a{
+    padding-left: 40px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(9, 169, 232);
+
+
+    
+}
+.page1Button button{
+    height: 45px;
+    background-color: rgb(245, 180, 40);
+    border-radius: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+.page1Button button:hover{
+    background-color: rgb(237, 226, 129);
+    transition: .2s;
+}
+.page13box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top:460px;
+    left: 0;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+}
+.page13box .box1,.box2,.box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 300px;
+    background-color: #d7effe;
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: bold;   
+}
+.page13box .box1:hover,.box2:hover,.box3:hover{
+    box-shadow: 3px 3px cadetblue;
+    transition: .3s;
+    border:none;
+}
+.box1 a,.box2 a,.box3 a{
+    text-decoration: none;
+    color: black;
+
+}
+.page2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top:550px;
+    width: 100%;
+    height: 500px;
+    font-family: 'Hind Siliguri', sans-serif;    
+}
+.page2box{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 460px;
+    background-color: #eff7cf;
+}
+.page2box_div{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 32px;
+} 
+.page2box_div h1{
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.3;
+
+}
+.page2box_div button{ 
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #eff7cf;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif; 
+    border: 1px solid black;   
+}
+.page2box2{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 350px;
+    width: 500px;
+    background-color: #1769e0;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 13px;  
+}
+
+.page2box2_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+.page2box2 h1{
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.page2box2 img{
+    padding-right: 25px;
+}
+.page2box2 button{
+    border-radius: 20px;
+    height: 40px;
+    background-color:#1769e0;
+    border:1px solid #fff;
+    color: #fff;
+}
+.page2box_div button:hover,.page2box2 button:hover{
+    background-color: white;
+    color: black;
+}
+.page3{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:400px;
+    height: 500px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.Android_platform,.whats_new,.improving{
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-size: 13px;
+    font-weight: light;
+    line-height: 1.3;
+    height: 500px;
+    width: 300px;
+    
+}
+.Android_platform{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top: 65px;
+    height: 350px;
+}
+.Android_platform button{
+    border-radius: 20px;
+    height: 40px;
+    width: 180px ;
+    background-color: #3ddc84;
+    border: none;
+}
+.Android_platform button:hover{
+    background-color: #d7effe;
+}
+.whats_new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.improving{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    height: 465px;
+}
+.improving a,.whats_new a{
+    text-decoration: none;
+    color: black; 
+}
+.page4{
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.page4_top,.page4_buttom{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+.page4_empty_div,.media_transending,.Android_beta{
+    display: flex;
+    flex-direction: column ;
+    justify-content: top;
+    width: 400px;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 13px;  
+    line-height: 1.3;
+}
+.media_transending a,.Android_beta a{
+    text-decoration: none;
+    color: black;
+}
+.tool_updates,.hedgehog,.flamingo{
+    width: 300px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: top;
+    align-items: center;
+    width: 300px;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 13px;  
+    line-height: 1.3;
+}
+.hedgehog a,.flamingo a{
+    text-decoration: none;
+    color: black;
+}
+.tool_updates{
+    display: flex;
+    align-items: start;
+}
+.tool_updates button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #3ddc84;
+    border: none;
+}
+.page4_empty_div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.page5{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: start;
+    top: 360px;
+    height: 400px;
+    width: 100%;
+    background-color:white;
+}
+.developer_guide,.Sample,.Qaulity,.Distribute{
+    width: 230px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 13px;   
+    color: white;
+    background-color: #073042;  
+}
+.developer_guide h2,.Sample h2,.Qaulity h2,.Distribute h2{
+    color: #d7effe;
+    font-size: 25px;
+}
+.developer_guide img,.Sample img,.Qaulity img,.Distribute img{
+    height: 90px;
+    width:90px;
+    position: relative;
+    left: 40px;
+
+}
+.exploreMore{
+    position: relative;
+    top:370px;
+    left: 60px;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 17px; 
+}
+.page6{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:360px;
+    width: 100%;
+    height: 1200px;
+    background-color: #f1f1f1
+}
+.page6_div1,.page6_div2,.page6_div3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 420px;
+    width: 100%; 
+}
+.page6_div1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.latest_news,.Now_in,.illuminating{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: start;
+    height: 380px;
+    width: 350px;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 17px; 
+
+}
+.Now_in a,.illuminating a{
+    color: #073042;
+    text-decoration: none;
+    line-height: 1;
+    font-size: small;
+}
+.latest_news button{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #3ddc84;
+}
+.latest_news button:hover{
+    background-color: #d7effe;
+    color: black;
+}
+.tool_updates button:hover{
+    background-color: #d7effe;
+    color: black;
+}
+.empty_div,.viewComposition,.Turo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 17px; 
+}
+.viewComposition a,.Turo a{
+    text-decoration: none;
+    color: #073042;
+    line-height: 1;
+    font-size: small;
+}
+.page6_div3{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.latest_videos,.studio_bot,.fixing_color{
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hind Siliguri', sans-serif;  
+    font-size: 15px;
+
+}
+.latest_videos a,.studio_bot a,.fixing_color a{
+    text-decoration: none;
+    color: #073042;
+    line-height: 1;
+    font-size: small;
+}
+.latest_videos button{
+    height: 40px;
+    background-color: #3ddc84;
+    border-radius: 50px;
+    border: none;
+}
+.latest_videos button:hover{
+    background-color: #d7effe;
+    color: black;
+}
+.last_main_div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 360px;
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Hind Siliguri', sans-serif;  
+}
+.last_main_div h1{
+    position: relative;
+    left: 80px;
+    font-size: 40px;
+}
+.last_page_div1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+.stackoverflow,.twitter,.google{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align:start;
+    height: 350px;
+    width: 300px;
+    background-color: #eff7cf;
+}
+.stackoverflow div,.twitter div,.google div{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.last_page_div2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    font-size: 10px;
+}
+.twi,.youtube,.linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.last_footer{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 360px;
+}
+.list{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+.more_and,.descover,.and_dev,.releases,.doc,.support{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    position: relative;
+    left: 10px;
+    height: 300px;
+    width: 200px;
+    font-family: 'Hind Siliguri', sans-serif;  
+}
+.for_dev{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: 'Hind Siliguri', sans-serif;  
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Hind Siliguri', sans-serif; 
+}
+.get{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.get button{
+    border-radius: 20px;
+    background-color: #3ddc84;
+    height: 40px;
+    width: 80px;
+    border: none;
+}
+.get button:hover{
+    background-color: #d7effe;
+    color: black;
+
+}
+.get select{
+    height: 40px;
+    width: 80px;
+    font-family: 'Hind Siliguri', sans-serif; 
+    border: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
